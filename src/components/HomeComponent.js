@@ -36,10 +36,10 @@ function Home(props){
                     <RenderCard item={props.campsite} isLoading={props.campsitesLoading} errMess={props.campsitesErrMess}/>
                 </div>
                 <div className="col-md m-1">
-                    <RenderCard item={props.promotion} isLoading={props.promotionLoading} errMess={props.promotionErrMess}  />
+                    <RenderCard item={props.promotion} isLoading={props.promotionLoading} errMess={props.promotionErrMess} />
                 </div>
                 <div className="col-md m-1">
-                    <RenderCard item={props.partner} />
+                    <RenderCard item={props.partner} isLoading={props.partnersLoading} errMess={props.partnersErrMess} />
                 </div>
             </div>
         </div>
